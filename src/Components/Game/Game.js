@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Game extends Component {
   render() {
@@ -7,7 +7,7 @@ class Game extends Component {
       <div>
         <main>
           <h1>This is the start of the game!</h1>
-          <li><Link to='/'>Home</Link></li>
+          <li><NavLink to='/'>Home</NavLink></li>
         </main>
       </div>
     );

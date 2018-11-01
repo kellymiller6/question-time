@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import GameSetup from '../../Components/GameSetup/GameSetup.js';
 import Game from '../../Components/Game/Game.js';
 import './App.css';
